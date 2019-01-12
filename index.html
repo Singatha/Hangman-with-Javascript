@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hangman </title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href = "css/bootstrap.min.css" rel = "stylesheet">
+</head>
+<body>
+	<header>
+		<h1> Hangman </h1>
+	</header>
+
+	<section class="container">
+
+		<div id="scorePanel">
+			<h4> Score: <span class="badge" id="score"></span></h4>
+
+			<h5> Caught: </h5>
+			<span class="badge" id="caught"></span>
+
+			<h5> Missed: </h5>
+			<span class="badge" id="missed"></span>
+		</div>
+
+		<div id="image">
+			<!--<img class="img-thumbnail" src="images/state11.gif">-->
+		</div>
+
+	</section>
+
+	<setion id="words">
+		<h4 id="mystreyWord"></h4>
+		<br>
+	</setion>
+
+	<div id="buttons">
+		<div id="section1">
+			<button class="btn btn-primary btn-lg" id="a"> A </button>
+			<button class="btn btn-primary btn-lg" id="b"> B </button>
+			<button class="btn btn-primary btn-lg" id="c"> C </button>
+			<button class="btn btn-primary btn-lg" id="d"> D </button>
+			<button class="btn btn-primary btn-lg" id="e"> E </button>
+			<button class="btn btn-primary btn-lg" id="f"> F </button>
+			<button class="btn btn-primary btn-lg" id="g"> G </button>
+		</div>
+
+		<div id="section2">
+			<button class="btn btn-primary btn-lg" id="h"> H </button>
+			<button class="btn btn-primary btn-lg" id="i"> I </button>
+			<button class="btn btn-primary btn-lg" id="j"> J </button>
+			<button class="btn btn-primary btn-lg" id="k"> K </button>
+			<button class="btn btn-primary btn-lg" id="l"> L </button>
+			<button class="btn btn-primary btn-lg" id="m"> M </button>
+			<button class="btn btn-primary btn-lg" id="n"> N </button>
+		</div>
+
+		<div id="section3">
+			<button class="btn btn-primary btn-lg" id="o"> O </button>
+			<button class="btn btn-primary btn-lg" id="p"> P </button>
+			<button class="btn btn-primary btn-lg" id="q"> Q </button>
+			<button class="btn btn-primary btn-lg" id="r"> R </button>
+			<button class="btn btn-primary btn-lg" id="s"> S </button>
+			<button class="btn btn-primary btn-lg" id="t"> T </button>
+			<button class="btn btn-primary btn-lg" id="u"> U </button>
+		</div>
+
+		<div id="section4">
+			<button class="btn btn-primary btn-lg" id="v"> V </button>
+			<button class="btn btn-primary btn-lg" id="w"> W </button>
+			<button class="btn btn-primary btn-lg" id="x"> X </button>
+			<button class="btn btn-primary btn-lg" id="y"> Y </button>
+			<button class="btn btn-primary btn-lg" id="z"> Z </button>
+		</div>
+	</div>
+
+	<div id="quit">
+		<button class="btn btn-primary" onclick="handleStart()"> Start </button>
+		<button class="btn btn-default" onclick="handleReset()"> Reset </button>
+		<button class="btn btn-danger" onclick="handleQuit()"> Quit </button>
+	</div>
+
+	<footer id="bottomFooter">
+		<h4>  2018 &copy; Copyright </h4>
+	</footer>
+
+	<script type="text/javascript" src="javascript/vanilla.js"></script>
+
+</body>
+</html>

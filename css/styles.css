@@ -1,0 +1,69 @@
+header {
+	margin: 0;
+	padding: 0;
+	background-color: midnightblue;
+}
+
+header h1 {
+	margin: 0;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	margin: 0;
+	padding: 20px;
+}
+
+#scorePanel {
+	border: 2px solid royalblue;	
+	width: 25%;
+	padding-left: 20px;
+	margin-left: 210px;
+}
+
+#image {
+	border: 2px solid royalblue;
+	width: 25%;
+	margin-left: 80px;
+	padding: 20px; 
+} 
+
+#mystreyWord{
+	text-align: center;
+}
+
+#buttons {
+	margin:0 auto;
+	width: 40%;
+}
+
+#section1 {
+	margin-bottom: 10px;
+}
+
+#section2 {
+	margin-bottom: 10px;
+}
+
+#section3 {
+	margin-bottom: 10px;
+}
+
+#section4 {
+	margin-bottom: 10px;
+}
+
+#quit {
+	margin-left: 900px;
+	margin-bottom: 10px;
+}
+
+#bottomFooter {
+	background-color: darkcyan;
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+}
